@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanta</title>
+    <!-- css file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- icons link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- font link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- start header -->
+    <header id="header">
+        <a class="logo" href="index.html">shanta</a>
+        <div>
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a></li>
+            </ul>
+        </div>
+        <div class="night">
+            <i class="moon fa-solid fa-moon"></i>
+            <div class="mobile">
+                <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+                <i class="menu fa-solid fa-bars"></i>
+                <i class="xmark fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        
+    </header>
+    <!-- end header -->
+    <!-- start content  -->
+    <section class="header-banner about-banner section-p1">
+        <div class="text">
+            <h2>#Cart</h2>
+            <p>Add Your Coupon Code & Save Up to 70%!</p>
+        </div>
+    </section>
+    <section class="cart section-p1">
+        <table class="tab" width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                <td><img src="images/f1.jpg" alt=""></td>
+                <td>Cartoon T-shirt</td>
+                <td>$75</td>
+                <td><input type="number" value="1"></td>
+                <td>$75</td>
+            </tr>
+        </tbody>
+        </table>
+        <div class="couponSec">
+            <div class="coupon">
+                <h3>Apply Coupon</h3>
+                <input type="text" placeholder="Enter Your Coupon">
+                <button class="normal" onclick="window.location.href='coming.html'">Apply</button>
+            </div>
+            <div class="totals">
+                <h3>Cart Totals</h3>
+                <table>
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td>$335</td>
+                    </tr>
+                    <tr>
+                        <td>Shiping</td>
+                        <td>free</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Total</strong></td>
+                        <td>$335</td>
+                    </tr>
+                </table>
+                <button class="normal" onclick="window.location.href='coming.html'">Proceed To Checkout</button>
+            </div>
+        </div>
+    </section>
+    <!-- start footer -->
+    <footer class="section-p1">
+        <div class="info">
+            <div class="col">
+                <a class="logo" href="#">Shanta</a>
+                <h4>contact</h4>
+                <p><strong>Address:</strong> Dellingat, Behera, Egypt</p>
+                <p><strong>Phone:</strong> +20 1020331690</p>
+                <p><strong>Hours:</strong> 10:00-18:00 sat-thr</p>
+                <div class="follow">
+                    <h4>Follow Us</h4>
+                    <div class="social">
+                        <a href="https://web.facebook.com/Shantacom/?_rdc=1&_rdr"><i
+                                class="fa-brands fa-facebook"></i></a>
+                        <a
+                            href="https://twitter.com/shanta_gold?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"><i
+                                class="fa-brands fa-x-twitter"></i></a>
+                        <a href="https://www.instagram.com/explore/tags/clothes/?hl=ar"><i
+                                class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.pinterest.com/ohjoy/clothing/"><i class="fa-brands fa-pinterest-p"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <h4>About</h4>
+                <a class="ab" href="#">About us</a>
+                <a class="ab" href="#">Delivary Information</a>
+                <a class="ab" href="#">Privacy Policy</a>
+                <a class="ab" href="#">Terms & Conditions</a>
+                <a class="ab" href="#">Contact Us</a>
+            </div>
+            <div class="col">
+                <h4>My Account</h4>
+                <a class="ab" href="#">Sign In</a>
+                <a class="ab" href="#">View Cart</a>
+                <a class="ab" href="#">My Wishlist</a>
+                <a class="ab" href="#">Track My Order</a>
+                <a class="ab" href="#">Help</a>
+            </div>
+            <div class="col">
+                <h4>Install App</h4>
+                <p>From App Store Or Google Play</p>
+                <div class="row">
+                    <img src="images/app.jpg" alt="">
+                    <img src="images/play.jpg" alt="">
+                </div>
+                <p>Secured Payment Gateways</p>
+                <img src="images/pay.png" alt="">
+            </div>
+        </div>
+        <div class="copy">
+            <p>©2023, Made With ♡ Amr Hamed Shanta_website</p>
+        </div>
+    </footer>
+    <!-- end footer -->
+    <!-- js file -->
+    <script src="main.js"></script>
+</body>
+
+</html>
